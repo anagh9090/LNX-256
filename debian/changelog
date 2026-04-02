@@ -1,0 +1,6 @@
+lnxsum (1.0.0-2) noble; urgency=low
+
+  * Fixed maintainer formatting for PPA compatibility.
+  * Corrected name-email spacing.
+
+ -- Anagh Barnwal <contact.anaghbarnwal@gmail.com>  Thu, 02 Apr 2026 14:22:07 +0530
