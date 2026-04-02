@@ -1,6 +1,7 @@
-lnxsum (1.0.0-2) noble; urgency=low
+lnxsum (1.1.0-1) noble; urgency=low
 
-  * Fixed maintainer formatting for PPA compatibility.
-  * Corrected name-email spacing.
+  * New upstream release with optimized folder structure.
+  * Added python3-setuptools to build dependencies.
+  * Implemented main() entry point for better CLI integration.
 
- -- Anagh Barnwal <contact.anaghbarnwal@gmail.com>  Thu, 02 Apr 2026 14:22:07 +0530
+ -- Anagh Barnwal <contact.anaghbarnwal@gmail.com>  Thu, 02 Apr 2026 14:44:52 +0530

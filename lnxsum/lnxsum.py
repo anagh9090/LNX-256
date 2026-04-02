@@ -79,3 +79,20 @@ if __name__ == "__main__":
             print(f"LNX-256 SIGNATURE: {result}")
             print(f"COMPLETED IN: {total_time:.2f} seconds")
             print("-" * 40)
+def main():
+    import sys
+    if len(sys.argv) < 2:
+        print("Usage: lnxsum <path_to_file>")
+    else:
+        target_file = sys.argv[1]
+        start_time = time.time()
+        result = calculate_lnx256(target_file)
+        if result:
+            total_time = time.time() - start_time
+            print("-" * 40)
+            print(f"LNX-256 SIGNATURE: {result}")
+            print(f"COMPLETED IN: {total_time:.2f} seconds")
+            print("-" * 40)
+
+if __name__ == "__main__":
+    main()
